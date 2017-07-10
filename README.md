@@ -20,7 +20,7 @@ For Views/js/main.js and views/pizza.html:
 - Moved var Items outside of updatePosition function and selected by class name, not by query all
 - Reduced number of moving pizzas to 50
 - Optimized size of pizza images
-
+- CSS style was minified and inlined in pizza.html
 
    
 
