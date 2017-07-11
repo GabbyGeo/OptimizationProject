@@ -4,6 +4,14 @@ $Website-Optimization-Project
 $Website-Optimization-Project involved optimizing a provided website with a number of optimization and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
     
 
+Running the Application
+------------
+
+Begin $Website-Optimization-Project by opening:
+
+	https://gabbygeo.github.io/OptimizationProject/  
+
+
 Optimization and Performance Enhancement Steps Taken
 --------
 
@@ -21,8 +29,11 @@ For Views/js/main.js and views/pizza.html:
 - Reduced number of moving pizzas to 50
 - Optimized size of pizza images
 - CSS style was minified and inlined in pizza.html
-
-   
+- Changed querySelectorAll to getElementById or getElementsByClassName for improved performance
+- Moved pizzasDiv variable outside the for loop
+- Created local var top outside the loop
+- Moved var elem outside the for loop
+- Created movingPizzas var outside the loop
 
 Contribute
 ----------
